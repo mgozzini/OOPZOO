@@ -1,4 +1,4 @@
-
+/*
 public class Bear {
     String name = "";
     String favoriteFood= "";
@@ -34,5 +34,20 @@ public class Bear {
         bear.eat("fish");
         bear.eat("meat");
 
+    }
+}
+*/
+
+public class Bear extends Animal {
+    // complete the Bear class here, using the completed Tiger class as an example
+    public Bear(String name) {
+        super(name, "fish");
+        this.name = name;
+        this.favoriteFood = favoriteFood;
+    }
+    // here, we override the sleep function
+    @Override
+    public void sleep() {
+        System.out.println(name + " hibernates for 4 months");
     }
 }
