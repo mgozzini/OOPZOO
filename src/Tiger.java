@@ -28,8 +28,6 @@ public class Tiger {
         }
 
         public static void main(String[] args) {
-            //either make a new instance of a zoo
-            //to call the non-static sleep method....
             Tiger tiger = new Tiger("Tiger");
             tiger.eat("meat");
             tiger.eat("kibble");
@@ -43,8 +41,8 @@ public class Tiger {
 public class Tiger extends Animal{
     public Tiger(String name){
         super(name, "meat");
-        this.name=name;
-        this.favoriteFood = favoriteFood;
     }
+
+
 }
 
