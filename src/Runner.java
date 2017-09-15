@@ -6,20 +6,15 @@ public class Runner {
         Unicorn rarity =new Unicorn("Rarity");
         Giraffe gemma = new Giraffe("Gemma");
         Bee stinger = new Bee("Stringer");
+        Zookeeper zoebot = new Zookeeper("Zoebot");
 
-        tiger.eat("meat");
-        tiger.eat("kibble");
-
-        bear.eat("fish");
-        bear.eat("meat");
-
-        rarity.eat("marshmallows");
-
-        gemma.eat("meat");
-        gemma.eat("leaves");
-
-        stinger.eat("ice cream");
-        stinger.eat("pollen");
+        ArrayList<Animal> animals = new ArrayList<>();
+        animals.add(tiger);
+        animals.add(bear);
+        animals.add(rarity);
+        animals.add(gemma);
+        animals.add(stinger);
+        zoebot.feedAnimals(animals,"pizza");
 
     }
 }
