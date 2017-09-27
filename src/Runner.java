@@ -14,7 +14,7 @@ public class Runner {
         animals.add(rarity);
         animals.add(gemma);
         animals.add(stinger);
-        zoebot.feedAnimals(animals,"pizza");
+        zoebot.feedAnimals(animals, "pizza");
 
     }
 }
